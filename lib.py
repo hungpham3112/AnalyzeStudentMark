@@ -1,7 +1,6 @@
 import numpy as np
 import os
 
-
 # Data analyzing
 def format_data(data: str) -> list[str]:
     return data.strip().split(",")
@@ -124,6 +123,7 @@ def create_output_dir(name="Output") -> str:
     if not os.path.exists(final_directory):
         os.makedirs(final_directory)
     return final_directory
+
 
 def class_result(file, file_name, answer_key):
     with open(
