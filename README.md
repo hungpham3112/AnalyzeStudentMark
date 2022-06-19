@@ -13,8 +13,7 @@ Clone the repository to your local machine and run main.py:
 ```pwsh
 git clone https://github.com/hungpham3112/AnalyzeStudentMark.git 
 cd AnalyzeStudentMark
-./Scripts/activate
-python -m pip install -r dependencies.txt
+python -m pip install -r requirements.txt
 python main.py
 ```
 
